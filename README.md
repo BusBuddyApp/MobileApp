@@ -1,6 +1,8 @@
-# _Template_
+# _Bus Buddy - Mobile App mockup_
 
-#### By _Ewa Manek_
+##Credits to Others
+*_Starting template with npm packages and bower packages by Ewa Manek_
+*_Bus Buddy icon made by http://www.flaticon.com/authors/baianat_
 
 ## Description
 
