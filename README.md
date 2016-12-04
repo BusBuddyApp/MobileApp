@@ -3,6 +3,7 @@
 ##Credits to Others
 *_Starting template with npm packages and bower packages by Ewa Manek_
 *_Bus Buddy icon made by http://www.flaticon.com/authors/baianat_
+*_See console for links on frog gif and sound clip of polka jazz music for origins_
 
 ## Description
 
