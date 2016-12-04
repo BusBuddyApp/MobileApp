@@ -6,11 +6,25 @@
     <link rel="stylesheet" href="build/css/styles.css">
     <script src="build/js/vendor.min.js"></script>
     <script type="text/javascript" src="build/js/app.js"></script>
-    <title>Template</title>
+    <title>Bus Buddy</title>
   </head>
   <body>
     <div class="container">
-      <h1>Is sass working?</h1>
+      <div class="jumbotron">
+        <h1>Bus Buddy</h1>
+        <p class="duration"></p>
+      </div>
+      <h1 id="time"></h1>
+     <form>
+       <label for="alarm">Set alarm</label>
+       <input id="alarm" type="datetime-local" name="alarm">
+       <button type="submit" name="button">Set</button>
+     </form>
+     <div class="sound-alarm">
+       <img src="img/frog.gif" alt="" />
+       <button id="snooze" type="submit" name="button">Snooze!</button>
+       <button id="stopAlarm" type="submit" name="button">For the love of God - I AM AWAKE!</button>
+     </div>
     </div>
   </body>
 </html>
