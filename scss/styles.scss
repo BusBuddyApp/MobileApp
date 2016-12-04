@@ -3,3 +3,7 @@ $color: 	#d36154;
 h1 {
   color: $color;
 }
+
+#stop-button, .duration-div {
+  display: none;
+}

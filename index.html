@@ -12,19 +12,17 @@
     <div class="container">
       <div class="jumbotron">
         <h1>Bus Buddy</h1>
-        <p class="duration"></p>
+        <form>
+          <label for="destination">Enter your destination:</label>
+          <input id="destination" type="text">
+          <button type="submit" name="button">Go!</button>
+        </form>
+        <div class="duration-div">
+          <span>Estimated Travel Time: </span>
+          <p class="duration"></p>
+        </div>
+        <button id="stop-button" type="button">Stop</button>
       </div>
-      <h1 id="time"></h1>
-     <form>
-       <label for="alarm">Set alarm</label>
-       <input id="alarm" type="datetime-local" name="alarm">
-       <button type="submit" name="button">Set</button>
-     </form>
-     <div class="sound-alarm">
-       <img src="img/frog.gif" alt="" />
-       <button id="snooze" type="submit" name="button">Snooze!</button>
-       <button id="stopAlarm" type="submit" name="button">For the love of God - I AM AWAKE!</button>
-     </div>
     </div>
   </body>
 </html>
