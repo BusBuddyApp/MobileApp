@@ -13,16 +13,27 @@
       <div class="jumbotron">
         <h1>Bus Buddy</h1>
         <form>
-          <label for="destination">Enter your destination:</label>
-          <input id="destination" type="text">
+          <label for="destination">Select your destination:</label>
+          <select name="stops" id="destination">
+            <option value="lake oswego">SW Main & 2nd</option>
+            <option value="milwaukie">SW Washington & 3rd</option>
+            <option value="tigard">5th & SW Washington</option>
+            <option value="tualatin">SW Washington & Broadway</option>
+          </select>
           <button type="submit" name="button">Go!</button>
         </form>
         <div class="duration-div">
           <span>Estimated Travel Time: </span>
           <p class="duration"></p>
         </div>
-        <button id="stop-button" type="button">Stop</button>
+
       </div>
+
+      <div class="sound-alarm">
+        <img src="https://raw.githubusercontent.com/helloapro/js-w1d2-alarm-clock/master/img/frog.gif" alt="" />
+        <button id="stopAlarm" type="submit">Stop the Bus!</button>
+      </div>
+
     </div>
   </body>
 </html>
